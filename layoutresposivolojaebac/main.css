@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header h1{
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    margin-top: 3%;
+}
+
+p{
+    padding-right: 1%;
+}
+
+
+@media (min-width: 1024px){
+    .grid2{
+        display: grid;
+        grid-template-columns: 21% 21% 21% 21%;
+        column-gap: 3%;
+        padding-left: 5%;
+    }
+
+    h3{
+        padding-left: 38%;
+        padding-top: 5%;
+    }
+    header h1{
+        font-size: 40px;
+    }
+
+
+    h1{
+        margin-left: 18px;
+    }
+    
+    body{
+        background-color: aliceblue;
+        font-family: "Barlow", sans-serif;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    header {
+        
+        font-family: "Pacifico", cursive;
+        width: 100vw;
+        height: 150px;
+        background-color:orange;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    header img{
+        
+        width: 80px;
+        height: 80px;
+        margin-left: 18px;
+        
+    }
+
+    header
+
+    ul{ 
+        display: flex;
+        list-style: none;
+    }
+
+    li{
+        margin-right: 18px;
+    }
+
+    .Produtos img{
+        margin: 3%;
+    }
+
+    .Sobre img{
+        height: auto;
+        margin:4%
+
+    }
+        
+    .Sobre {
+    
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 1%;
+    }
+
+    p{
+        padding-left:3%
+    }
+    
+    .Produtos h2{
+        font-size: 55px;
+        padding-bottom:10px;
+        padding-left: 10px;
+        background-color: burlywood;
+        
+    
+    }
+
+    button{
+
+
+        background-color: #000;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 9%;
+        margin-top: 7%;
+
+    
+    }
+    .grid2 img{
+        padding-left: 5%;
+        
+    }
+
+    .Produtos img{
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+
+@media (min-width: 641px) and (max-width: 1023px){
+    
+
+    .grid2{
+        display: grid;
+        grid-template-columns: 47% 47%;
+        column-gap: 5%;
+        padding-left: 3%;
+    }
+
+    h3{
+        padding-left: 38%;
+        padding-top: 5%;
+    }
+
+    header h1{
+        font-size: 40px;
+    }
+
+
+    h1{
+        margin-left: 18px;
+    }
+    
+    body{
+        background-color: aliceblue;
+        font-family: "Barlow", sans-serif;
+        
+        
+    }
+    
+    header {
+        
+        font-family: "Pacifico", cursive;
+        width: 100vw;
+        height: 150px;
+        background-color:orange;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+    }
+    header img{
+        
+        width: 80px;
+        height: 80px;
+        margin-left: 18px;
+        
+    }
+    ul{ 
+        display: flex;
+        list-style: none;
+    }
+
+    li{
+        margin-right: 18px;
+    }
+    .Produtos img{
+        margin: 3%;
+    }
+
+    .Sobre img{
+        width: 429px;
+        height: auto;
+        margin:4%
+
+    }
+    
+    .Sobre {
+        margin-bottom: 70px;
+    }
+    
+    p{
+        padding-left:3%
+    }
+    
+    .Sobre h2,.Produtos h2{
+        font-size: 55px;
+        padding-bottom:10px;
+        padding-left: 10px;
+        background-color: burlywood;
+        
+    
+    }
+
+    button{
+
+
+        background-color: #000;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 25%;
+        margin-top: 7%;
+    
+    }
+    .grid2 img{
+        width: 40vw;
+        height: 40vw;
+    }
+
+
+}
+
+@media (max-width: 640px){
+
+    p{
+        max-width: 433px;
+    }
+    button{
+
+        margin-top: 7%;
+        margin-left: 33%;
+        background-color: #000;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+    
+    }
+
+    h3{
+        padding-left: 38%;
+        padding-top: 5%;
+        font-style: oblique;
+        font-size: 30px;
+    }
+
+    h1{
+        margin-left: 18px;
+    }
+    
+    body{
+        background-color: aliceblue;
+        font-family: "Barlow", sans-serif;
+        
+    
+    }
+    
+    header {
+        
+        font-family: "Pacifico", cursive;
+        width: 100vw;
+        height: 150px;
+        background-color:orange;
+        padding: 10px 20px;
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    
+    }
+    
+    ul{ 
+        display: flex;
+        list-style: none;
+    }
+    
+    li{
+        margin-right: 18px;
+    }
+    
+    header img{
+        
+        width: 80px;
+        height: 80px;
+        margin-left: 18px;
+    }
+    
+    
+    .Sobre img,.Produtos img{
+        align-items: center;
+        padding-top:  5px;
+        padding-left: 5px;
+        width: 420px;
+        height: 420px;
+        margin:10%;
+
+    }
+    .Sobre {
+        margin-bottom: 70px;
+    }
+    p{
+        padding-left: 10%;
+    }
+    
+    .Sobre h2,.Produtos h2{
+        font-size: 55px;
+        padding-bottom:5%;
+        padding-left: 1%;
+        background-color: burlywood;
+    }
+}
