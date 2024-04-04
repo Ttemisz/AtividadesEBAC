@@ -1,0 +1,60 @@
+
+.row{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: burlywood
+}
+
+#carousel{
+    margin: 20px;
+}
+
+#navbarNavAltMarkup > div{
+    position: absolute;
+    right: 0;
+}
+
+body > header > nav {
+    z-index: 10;
+}
+
+#navbarNavAltMarkup > div{
+    background-color:  burlywood;
+    padding: 10px;
+    border-radius: 0 0 0 10px;
+    padding-right: 20px;
+    
+}
+
+#navbarNavAltMarkup > div > a:nth-child(1),#navbarNavAltMarkup > div > a:nth-child(3),#navbarNavAltMarkup > div > a:nth-child(5),#navbarNavAltMarkup > div > a:nth-child(7){
+    color: aliceblue;
+}
+
+body > header > nav > div > a{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbarNavAltMarkup > div{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+@media (max-width: 768px) {
+    .row{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    
+}
+
