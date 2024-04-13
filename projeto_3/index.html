@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Shop</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container-fluid mx-2 " >
+            <h1 class="navbar-brand m-3 p-0 text-white " href="#">Music Shop</h1>
+            <button class="navbar-toggler navbar navbar-dark bg-dark " type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0 " id="navbarSupportedContent">
+                <ul class="nav  me-auto mb-2 mb-lg-0 rounded-2">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active  " aria-current="page" href="#Sobrealoja">
+                            <i class="bi bi-house-door-fill"></i> Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#Eventos">
+                            <i class="bi bi-calendar2-event-fill"></i> Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#itens">
+                            <i class="bi bi-boombox-fill"></i> Nossos Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link " href="#formulario">
+                            <i class="bi bi-chat-dots-fill"></i> Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"> 
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img id="imagemcarousel" class="d-block w-100 " src="https://images.unsplash.com/photo-1530950774950-6376cbdcf385?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  alt="Sanfona">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img id="imagemcarousel" class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/26/01/06/piano-3703616_1280.jpg" alt="teclado">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img id="imagemcarousel" class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/12/27/16/36/trumpet-7681312_1280.jpg" alt="trompete">
+            </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">antes</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">depois</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+                </div>
+            </div>
+    <section id="Sobrealoja" class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                </div>
+                <div class="col-md-7 mt-2 mt-md-0 ">
+                    <h2 class="section-title fs-1 " id="fontlobster">Sobre a loja </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consec
+                        tetur adipisicing elit. Perspiciatis aut
+                        tenetur suscipit inventore dignissimos, volupt
+                        atibus sapiente, molestiae placeat maiores ea qu
+                        am blanditiis, voluptatem nisi alias corporis quis 
+                        similique praesentium accusamus.
+                    </p>
+                    <h2 class="section-title fs-1" id="fontlobster">Sobre os equipamentos</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consec
+                        tetur adipisicing elit. Perspiciatis aut
+                        tenetur suscipit inventore dignissimos, volupt
+                        atibus sapiente, molestiae placeat maiores ea qu
+                        am blanditiis, voluptatem nisi alias corporis quis 
+                        similique praesentium accusamus.
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="section-title fs-1" id="fontlobster">Sobre nossa equipe</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consec
+                        tetur adipisicing elit. Perspiciatis aut
+                        tenetur suscipit inventore dignissimos, volupt
+                        atibus sapiente, molestiae placeat maiores ea qu
+                        am blanditiis, voluptatem nisi alias corporis quis 
+                        similique praesentium accusamus.Lorem ipsum dolor sit amet consec
+                        tetur adipisicing elit. Perspiciatis aut
+                        tenetur suscipit inventore dignissimos, volupt
+                        atibus sapiente, molestiae placeat maiores ea qu
+                        am blanditiis, voluptatem nisi alias corporis quis 
+                        similique praesentium accusamus.Lorem ipsum dolor sit amet consec
+                        tetur adipisicing elit. Perspiciatis aut
+                        tenetur suscipit inventore dignissimos, volupt
+                        atibus sapiente, molestiae placeat maiores ea qu
+                    </p>
+            </div>
+        </div>
+    </section>
+    <section id="Eventos" >
+        <div id="titulolinharow" class="row ">
+            <h1 class="section-title text-center fs-1" id="fontlobster">Eventos</h1>
+    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                    <h3 id="fontlobster">show</h3>
+                    <p>
+                        <h6>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                            alias illo perspiciatis iusto quae repudiandae vitae 
+                            aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                        </h6>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                    <h3 id="fontlobster">concerto</h3>
+                    <p>
+                        <h6>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                            alias illo perspiciatis iusto quae repudiandae vitae 
+                            aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                        </h6>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                    <h3 id="fontlobster" >cover</h3>
+                    <p>
+                        <h6>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                            alias illo perspiciatis iusto quae repudiandae vitae 
+                            aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                        </h6>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                    <h3 id="fontlobster">show</h3>
+                    <p>
+                        <h6>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                            alias illo perspiciatis iusto quae repudiandae vitae 
+                            aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                        </h6>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                    <h3 id="fontlobster">concerto</h3>
+                    <p>
+                        <h6>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                            alias illo perspiciatis iusto quae repudiandae vitae 
+                            aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                        </h6>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block w-100 rounded" src="https://guitarload.com.br/wp-content/uploads/2019/01/mercado-de-instrumentos-musicais-1.jpg" alt="Dentro da loja">
+                    <h3 id="fontlobster" >cover</h3>
+                    <p>
+                        <h6>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                            alias illo perspiciatis iusto quae repudiandae vitae 
+                            aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                        </h6>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="itens">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center fs-1 " id="fontlobster">
+                    Produtos
+                </h2>
+            </div>
+            <div class="row mb-3">
+                <aside>
+                    <nav class="nav nav-pills">
+                        <button type="button" class="nav-link active m-2 shadow" data-bs-toggle="tab" data-bs-target="#guitarras">Guitarras</button>
+                        <button type="button" class="nav-link m-2 shadow" data-bs-toggle="tab" data-bs-target="#baterias">Baterias</button>
+                        <button type="button" class="nav-link m-2 shadow" data-bs-toggle="tab" data-bs-target="#baixos">Baixos</button>
+                        <button type="button" class="nav-link m-2 shadow" data-bs-toggle="tab" data-bs-target="#sopro">Sopro</button>
+                        <button type="button" class="nav-link m-2 shadow" data-bs-toggle="tab" data-bs-target="#outros">Outros</button>
+                    </nav>
+                </aside>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="guitarras">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2024/02/26/19/51/guitar-8598823_1280.jpg" alt="Guitarra">
+                            <h3 id="fontlobster">Guitarra</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/10/12/23/22/electric-guitar-1736291_1280.jpg" alt="Guitarra">
+                            <h3 id="fontlobster">Guitarra</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2024/02/26/19/51/guitar-8598823_1280.jpg" alt="Guitarra">
+                            <h3 id="fontlobster">Guitarra</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://cdn.pixabay.com/photo/2016/10/12/23/22/electric-guitar-1736291_1280.jpg" alt="Guitarra">
+                            <h3 id="fontlobster">Guitarra</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="baterias">
+                    <div class="row"> 
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/147033398/pt/foto/tambores.jpg?s=1024x1024&w=is&k=20&c=7FK-AMT68EJgcFDM3WMHKJiYc581Paw3aiCx8M84TEg=" alt="Bateria">
+                            <h3 id="fontlobster">Bateria</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/147033398/pt/foto/tambores.jpg?s=1024x1024&w=is&k=20&c=7FK-AMT68EJgcFDM3WMHKJiYc581Paw3aiCx8M84TEg=" alt="Bateria">
+                            <h3 id="fontlobster">Bateria</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/147033398/pt/foto/tambores.jpg?s=1024x1024&w=is&k=20&c=7FK-AMT68EJgcFDM3WMHKJiYc581Paw3aiCx8M84TEg=" alt="Bateria">
+                            <h3 id="fontlobster">Bateria</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/147033398/pt/foto/tambores.jpg?s=1024x1024&w=is&k=20&c=7FK-AMT68EJgcFDM3WMHKJiYc581Paw3aiCx8M84TEg=" alt="Bateria">
+                            <h3 id="fontlobster">Bateria</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/147033398/pt/foto/tambores.jpg?s=1024x1024&w=is&k=20&c=7FK-AMT68EJgcFDM3WMHKJiYc581Paw3aiCx8M84TEg=" alt="Bateria">
+                            <h3 id="fontlobster">Bateria</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="baixos">
+                    <div class="row"> 
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/886183250/pt/foto/electric-bass-guitar-3d-rendering-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=CbWh-K-B-r68WGAahzMPqfsWztC0HrLfPi5IV-gSw_Q=" alt="Baixo">
+                            <h3 id="fontlobster">Baixo</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/886183250/pt/foto/electric-bass-guitar-3d-rendering-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=CbWh-K-B-r68WGAahzMPqfsWztC0HrLfPi5IV-gSw_Q=" alt="Baixo">
+                            <h3 id="fontlobster">Baixo</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/886183250/pt/foto/electric-bass-guitar-3d-rendering-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=CbWh-K-B-r68WGAahzMPqfsWztC0HrLfPi5IV-gSw_Q=" alt="Baixo">
+                            <h3 id="fontlobster">Baixo</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/886183250/pt/foto/electric-bass-guitar-3d-rendering-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=CbWh-K-B-r68WGAahzMPqfsWztC0HrLfPi5IV-gSw_Q=" alt="Baixo">
+                            <h3 id="fontlobster">Baixo</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="sopro">
+                        <div class="row"> 
+                            <div class="col-md-4">
+                                <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/1273859508/pt/foto/alto-saxophone-music-wind-instrument.jpg?s=1024x1024&w=is&k=20&c=RbRppY0DpRzoJGfEAY4fZTQ7Pvo0K77ciNtWejGOC-8=" alt="Saxsofone">
+                                <h3 id="fontlobster">Saxsofone</h3>
+                                <p>
+                                    <h6>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                        alias illo perspiciatis iusto quae repudiandae vitae 
+                                        aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                    </h6>
+                                    <h4 class="fw-bold">Valor:999,99</h4>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/1273859508/pt/foto/alto-saxophone-music-wind-instrument.jpg?s=1024x1024&w=is&k=20&c=RbRppY0DpRzoJGfEAY4fZTQ7Pvo0K77ciNtWejGOC-8=" alt="Saxsofone">
+                                <h3 id="fontlobster">Saxsofone</h3>
+                                <p>
+                                    <h6>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                        alias illo perspiciatis iusto quae repudiandae vitae 
+                                        aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                    </h6>
+                                    <h4 class="fw-bold">Valor:999,99</h4>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/1273859508/pt/foto/alto-saxophone-music-wind-instrument.jpg?s=1024x1024&w=is&k=20&c=RbRppY0DpRzoJGfEAY4fZTQ7Pvo0K77ciNtWejGOC-8=" alt="Saxsofone">
+                                <h3 id="fontlobster">Saxsofone</h3>
+                                <p>
+                                    <h6>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                        alias illo perspiciatis iusto quae repudiandae vitae 
+                                        aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                    </h6>
+                                    <h4 class="fw-bold">Valor:999,99</h4>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/1273859508/pt/foto/alto-saxophone-music-wind-instrument.jpg?s=1024x1024&w=is&k=20&c=RbRppY0DpRzoJGfEAY4fZTQ7Pvo0K77ciNtWejGOC-8=" alt="Saxsofone">
+                                <h3 id="fontlobster">Saxsofone</h3>
+                                <p>
+                                    <h6>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                        alias illo perspiciatis iusto quae repudiandae vitae 
+                                        aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                    </h6>
+                                    <h4 class="fw-bold">Valor:999,99</h4>
+                                </p>
+                            </div> 
+                            <div class="col-md-4">
+                                <img class="d-block w-100 rounded" src="https://media.istockphoto.com/id/1273859508/pt/foto/alto-saxophone-music-wind-instrument.jpg?s=1024x1024&w=is&k=20&c=RbRppY0DpRzoJGfEAY4fZTQ7Pvo0K77ciNtWejGOC-8=" alt="Saxsofone">
+                                <h3 id="fontlobster">Saxsofone</h3>
+                                <p>
+                                    <h6>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                        alias illo perspiciatis iusto quae repudiandae vitae 
+                                        aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                    </h6>
+                                    <h4 class="fw-bold">Valor:999,99</h4>
+                                </p>
+                            </div>
+                        </div>
+                            
+                    </div>
+                <div class="tab-pane" id="outros">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1604962710326-db0c6d5ba720?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Saxsofone">
+                            <h3 id="fontlobster">acordeon</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1604962710326-db0c6d5ba720?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Saxsofone">
+                            <h3 id="fontlobster">acordeon</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1604962710326-db0c6d5ba720?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Saxsofone">
+                            <h3 id="fontlobster">acordeon</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded" src="https://images.unsplash.com/photo-1604962710326-db0c6d5ba720?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Saxsofone">
+                            <h3 id="fontlobster">acordeon</h3>
+                            <p>
+                                <h6>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab blanditiis dolorum, 
+                                    alias illo perspiciatis iusto quae repudiandae vitae 
+                                    aliquid asperiores dolores officiis. Debitis sequi unde ab delectus facere qui repudiandae.
+                                </h6>
+                                <h4 class="fw-bold">Valor:999,99</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="formulario">
+            <div class="row">
+                <h2 class="text-center fs-1" id="fontlobster">Fale conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form  action="form">
+                        <div class="mt-2">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email"  class="form-control" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="text" id="telefone" class="form-control" required>
+                        </div>
+                        <div class="mt-2">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea id="mensagem" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark mt-4 fw-bold">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row ">
+                        <h3 class="section-title" id="fontlobster"><i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais</h3>
+                        <ul class="social-links d-inline">
+                            <li class="fs-5 d-inline ">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 d-inline">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="bi bi-instagram "></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 d-inline">
+                                <a href="#" class="text-decoration-none">
+                                    <i class="bi bi-whatsapp "></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3 id="fontlobster">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereco
+                        </h3>
+                        <p>
+                            Rua dos bobos numero 0,Bairro vinicus de moraes-Esmeros-BR 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="d-flex justify-content-center">&copy; 2024 Todos os direitos reservados - Seu Nome</p>
+    </section>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+</div>    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
