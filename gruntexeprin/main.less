@@ -1,0 +1,53 @@
+@import "variaveis.less";
+
+* {
+    background-color: @cordefundo;
+    
+}
+
+body {
+    color: @corpreta;
+
+    header {
+        h1 {
+            font-family: @fonteprincipal;
+            text-align: center;
+        }
+    }
+}
+
+.multiplicacao{
+
+    font-family: @fontesecundaria;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+
+
+    input{
+        background-color: @corbranca;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        
+    }
+
+    h1{
+        margin: 20px;
+    }
+    
+    button{
+        width: 120px;
+        height: 50px;
+        margin-left: 25px;
+        border-radius: 5px;
+        background-color: @gray;
+        
+        &:hover{
+            background-color: @purplerain;
+        }
+    }
+    
+}
