@@ -1,0 +1,24 @@
+@use 'historia';
+@use 'hero';
+@use 'reset';
+@use 'header';
+@use 'atores';
+@use 'sobre';
+@use 'players';
+@use 'footer';
+body{
+    background: linear-gradient(to top, rgb(34, 34, 34), #2f4229);
+    color: #fff;
+}
+
+.title{
+    
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase; 
+    margin-bottom: 4%;
+    font-family: "Abril Fatface", serif;
+    letter-spacing: 2px;
+}

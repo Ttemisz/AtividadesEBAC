@@ -1,0 +1,55 @@
+.historia{
+
+    @media (max-width:768px){
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+
+        &__imagem{
+            padding: 5.6vw;
+            align-content: center;
+            img{
+                width: 100%;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+                
+                
+            }
+        }
+
+        &__sinopse{
+            h1{
+                text-align: center;
+            }
+            p{
+                
+                font-size: 20px;
+            }
+            
+            &__button{
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(223, 182, 70);
+                border-radius: 5px;
+                width: 160px;
+                height: 64px;
+                font-size: 18px;
+                margin: 24px;
+                cursor: pointer;
+
+                &:hover { 
+                    background-color: #ffd000; 
+                }
+            }
+            padding: 5.6vw;
+            color:#f9f9f9;
+            
+    }
+}
