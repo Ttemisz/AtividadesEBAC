@@ -1,0 +1,47 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2f4229;
+    
+    
+    img{
+        margin: 0.4%;
+        width: 124px;
+    }
+    &__nav{
+
+
+        &__ul{
+
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            
+            a {
+                
+                color: #aebbae;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 5px 10px;
+
+                &:hover{
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 2px;
+                }
+            }
+
+            li {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+
