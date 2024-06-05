@@ -15,10 +15,6 @@ function styles() {
         
 }
 
-function watch() {
-    gulp.watch('source/styles/*.scss', styles);
-    gulp.watch('source/scripts/main.js',scripts)
-}
 
-exports.default = gulp.parallel(styles,watch,scripts);
-exports.watch = watch;
+
+exports.default = gulp.parallel(styles,scripts);
