@@ -1,18 +1,46 @@
 
 .header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #2f4229;
     
-    
+    @media(max-width: 768px){
+        
+    display: block;
+    }
+
+    &__menu{
+
+        @media(max-width: 768px){
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 48px;
+        }
+    }
+    &__menu__icon{
+        
+
+        @media (min-width:769px){
+            display: none;
+            align-items: center;
+        }
+    }
+
     img{
         margin: 0.4%;
         width: 124px;
     }
     &__nav{
-
+        
+        @media (max-width:768px){
+            display: none;
+            
+        }
 
         &__ul{
 
@@ -20,7 +48,12 @@
             display: flex;
             margin: 0;
             padding: 0;
+
+            @media (max-width:768px){
+            flex-direction: column;
             
+            
+        }
             a {
                 
                 color: #aebbae;
@@ -35,13 +68,13 @@
             }
 
             li {
-                margin-left: 20px;
+                
+                @media (max-width:768px){
+                    display: flex;            
+                    align-items: center;      
+                    justify-content: center; 
+                }
             }
         }
     }
 }
-
-
-
-
-
