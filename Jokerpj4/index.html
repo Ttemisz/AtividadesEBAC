@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +13,18 @@
 </head>
 <body>
     <header class="header">
+        <div class="header__menu">
             <img src="./imagens/JOKER.png" alt="">
-        <nav class="header__nav">
-            <ul class="header__nav__ul">
-                <li><a href="#sinopse">SINOPSE</a></li>
-                <li><a href="#atores">ELENCO PRINCIPAL</a></li>
-                <li><a href="#curiosidades">CURIOSIDADES</a></li>
-                <li><a href="#ondeassistir">ONDE ASSISTIR</a></li>
-            </ul>
-        </nav>
+            <div class="header__menu__icon" onclick="toggleMenu()">☰</div>
+        </div>
+    <nav class="header__nav" id="menu">
+        <ul class="header__nav__ul">
+            <li><a href="#sinopse">SINOPSE</a></li>
+            <li><a href="#atores">ELENCO PRINCIPAL</a></li>
+            <li><a href="#curiosidades">CURIOSIDADES</a></li>
+            <li><a href="#ondeassistir">ONDE ASSISTIR</a></li>
+        </ul>
+    </nav>
     </header>
     <section class="hero">
         <div class="hero__content">
