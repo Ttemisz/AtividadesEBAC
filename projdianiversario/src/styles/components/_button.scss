@@ -1,0 +1,36 @@
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 3px;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+    &--primary {
+        display: inline-block;
+        color: #fff;
+        background-color: rgb(255, 72, 0);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(231, 54, 0);
+                transform: scale(1.05);
+                transition: transform 0.3s ease;
+            
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        &__infos {
+            gap: 16px;
+        }
+    }
+}
