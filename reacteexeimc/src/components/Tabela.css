@@ -1,0 +1,24 @@
+
+.vermelho{
+    background-color: red;
+}
+
+.tabela{
+
+    display: grid;
+    place-items: center;
+    margin-top: 32px; 
+    
+}
+
+.thead{
+    margin: 24px;
+    
+}
+
+.tr{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+

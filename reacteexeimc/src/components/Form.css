@@ -1,0 +1,19 @@
+.entradas{
+    padding: 16px 32px;
+    margin: 16px;
+    border-radius: 5px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.textoimc{
+    margin-left: 24px;
+}
+
+.espacamento{
+    margin-left: 100px;
+}
